@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+body {
+  font-family: 'Rubik', sans-serif;
+}
+.navbar-boboyuk {
+  background-color: #ffffff;
+  margin-bottom: 0;
+  border: none !important;
+}
+.icon-nav1 {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  background-image: url(../img/icon-head1.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.icon-nav2 {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  background-image: url(../img/icon-head2.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.icon-nav3 {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  background-image: url(../img/icon-head3.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.bgimage {
+  width: 100%;
+  height: 350px;
+  background: url('../img/mb1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.mainbanner .text-banner {
+  padding-top: 60px;
+  color: #ffffff;
+}
+.container {
+  min-width: 1170px !important;
+}
+body {
+  min-width: 1170px !important;
+  font-family: 'Rubik', sans-serif;
+}
+#login-dp {
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#login-dp .help-block {
+  font-size: 12px;
+}
+#login-dp .bottom {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #ddd;
+  clear: both;
+  padding: 14px;
+}
+#login-dp .social-buttons {
+  margin: 12px 0;
+}
+#login-dp .social-buttons a {
+  width: 49%;
+}
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998;
+}
+.btn-fb:hover {
+  color: #fff;
+  background-color: #496ebc;
+}
+.btn-tw {
+  color: #fff;
+  background-color: #55acee;
+}
+.btn-tw:hover {
+  color: #fff;
+  background-color: #59b5fa;
+}
+@media (max-width: 768px) {
+  #login-dp {
+    background-color: inherit;
+    color: #fff;
+  }
+  #login-dp .bottom {
+    background-color: inherit;
+    border-top: 0 none;
+  }
+}
