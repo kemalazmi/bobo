@@ -1,7 +1,10 @@
+
 <?php include '../layout/header.php' ?>
 
 <script type="text/javascript">
-$(document).ready(function() {
+
+
+ $(document).ready(function() {
    $('#lightSlider').lightSlider({
     gallery: true,
     item: 1,
@@ -9,8 +12,25 @@ $(document).ready(function() {
     slideMargin: 0,
     thumbItem: 4
 });
+
+ 
+
+ $('.dropdown').on('show.bs.dropdown', function () {
+   $('.overlay-login').addClass("overlay");
+})
+$('.dropdown').on('hide.bs.dropdown', function () {
+   $('.overlay-login').removeClass("overlay");;
+}) 
 });
+ 
+ 
 </script>
+ 
+
+  
+ 
+<div class="overlay-login"> 
+</div>
 
 <section class="hotel-search">
 	<div class="container">
