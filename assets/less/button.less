@@ -1,0 +1,23 @@
+.btn{
+border-radius: 0 !important;	
+}
+
+
+
+.btn-blue {
+ background-color: @blue2;
+ color: @white;
+ border: 1px solid @blue2;
+ cursor: pointer;
+ -webkit-transition: background-color 0.5s ease-out;
+ -moz-transition: background-color 0.5s ease-out;
+ -o-transition: background-color 0.5s ease-out;
+ transition: background-color 0.5s ease-out;
+ &:active,
+ &:focus,
+ &:hover {
+  background-color: @white;
+  border: 1px solid @blue2;
+  color: @blue2 !important;
+ }
+}
