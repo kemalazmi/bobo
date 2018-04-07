@@ -1,0 +1,56 @@
+.SearchBox {
+  padding-top: 15px;
+ 
+    .tab-content {
+        padding: 15px;
+        padding-bottom: 0;
+        margin-top: -1px;
+    background-color:rgba(255, 255, 255, 0.5);   
+        .input-lg {
+            font-size: 14px !important;
+        }
+        .pane1 {
+            .form-control-pict {
+                position: absolute;
+                top: 0;
+                /* right: 0; */
+                z-index: 2;
+                display: block;
+                width: 34px;
+                height: 34px;
+                line-height: 34px;
+                text-align: center;
+                pointer-events: none;
+            }
+            .LocationHotel,.Date,.PoR,.ButtonSearch,{
+                float: left;
+                margin-right: 5px;
+            } 
+            .LocationHotel{
+                width: 390px;
+            }  
+            .Date {
+                width: 150px; 
+                cursor: pointer;
+            }
+            
+            .PoR {
+                width: 200px; 
+                .DropdownPoR { 
+                    min-width: 85px;
+                    padding: 10px;
+                    border-radius: 0px;
+                }
+            } 
+         
+            .ButtonSearch { 
+                width: 150px;
+                margin-right: 0px;
+                button,a{
+                    text-align: center;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
