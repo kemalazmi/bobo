@@ -39,6 +39,7 @@
 
 <body>
 <div class="container">
+  <div class="row">
   <nav class="navbar navbar-default navbar-boboyuk">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -135,5 +136,5 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-
+</div>
   </div>

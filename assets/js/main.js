@@ -1,14 +1,22 @@
 
 
  $( document ).ready(function() { 
+$( function() {
+    $( ".datepicker" ).datepicker({
+      numberOfMonths: 2,
+      showButtonPanel: true,
+      "showButtonPanel":  false
 
+    });
+  } );
 
  $( function() {
     var dateFormat = "mm/dd/yy",
       from = $( "#from" )
         .datepicker({
           defaultDate: "+1w",
-          changeMonth: true,
+      showButtonPanel: true,
+      "showButtonPanel":  false,
           numberOfMonths: 2
         })
         .on( "change", function() {
@@ -16,7 +24,9 @@
         }),
       to = $( "#to" ).datepicker({
         defaultDate: "+1w",
-        changeMonth: true,
+
+      showButtonPanel: true,
+      "showButtonPanel":  false,
         numberOfMonths: 2
       })
       .on( "change", function() {
@@ -34,6 +44,12 @@
       return date;
     }
   } );
+
+ // propagation
+ 
+  $(".DropdownPoR").click(function(event){
+    event.stopPropagation(); 
+});
 
 
 

@@ -1,9 +1,11 @@
-
-@import "../less/font-style.less"; 
 @import "../less/color.less";
+@import "../less/font-style.less";
 @import "../less/nav.less";
-@import "../less/icon.less"; 
+@import "../less/icon.less";
 @import "../less/index.less";
+@import "../less/datepicker.less";
+@import "../less/addon.less"; 
+@import "../less/button.less";
 @import "../less/footer.less";
 
 .container { 
@@ -14,6 +16,26 @@
     font-family: 'Rubik', sans-serif;
 }
 
+
+input,textarea,select{
+    border-radius: 0 !important;
+}
+
+
+select{ 
+    -ms-appreance:none;
+    -moz-appreance: none;
+     -webkit-appearance: none;
+  -moz-border-radius: 0px; 
+  -ms-border-radius: 0px; 
+  -webkit-border-radius: 0px;
+  line-height: 1.3333 !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: @text !important;
+    opacity: 1; /* Firefox */
+} 
 #login-dp{
     min-width: 250px;
     padding: 14px 14px 0;
