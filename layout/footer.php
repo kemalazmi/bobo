@@ -1,19 +1,19 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-5">
+			<div class="col-xs-4">
 				<h4>Partner Pembayaran</h4> 
 				<img src="../assets/img/bank-sprite.png" class="img-responsive" alt="Image">
 			</div>
 
-			<div class="col-xs-7">
+			<div class="col-xs-8">
 				<div class="row">
 					<div class="col-xs-12">
 						<img src="../assets/img/logo-footer.png" class="img-responsive" alt="Image">
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-4">
+					<div class="col-xs-5">
 						<ul>
 							<li class="contact-list"> 
 							<img src="../assets/img/phone.png" class="" alt="Image">
@@ -56,7 +56,7 @@
 						</ul>
 						</div>
 					</div> 
-					<div class="col-xs-5">
+					<div class="col-xs-4">
 						<div class="tentang">
 							<h4>Follow Kami di</h4>
 						<ul class="list-inline">
@@ -75,12 +75,19 @@
 				</div>
 			</div>
 		</div> 
-			<div class="col-xs-9"> 
-				  
-				 
- 
-				
-			</div>  
+		 
+		</div> 
+
+
+
+</footer>
+
+<section class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="text-center">
+				Copyright © 2018. Privacy Policy All Rights Reserved
+			</div>
 		</div>
 	</div>
-</footer>
+</section>

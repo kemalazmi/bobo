@@ -264,6 +264,39 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+.order {
+  padding-bottom: 60px;
+  text-align: center;
+}
+.order .heading-title {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.order .list-h2o {
+  display: table;
+  width: 100%;
+}
+.order .list-h2o .how-to-order {
+  display: table-row;
+  width: 100%;
+}
+.order .list-h2o .how-to-order .img-order,
+.order .list-h2o .how-to-order .no-order,
+.order .list-h2o .how-to-order .text-order {
+  display: table-cell;
+  padding: 40px 15px;
+  vertical-align: middle;
+}
+.order .list-h2o .how-to-order .text-order {
+  text-align: left;
+}
+.order .list-h2o .how-to-order .text-order a {
+  color: #6da2d6;
+  text-decoration: none;
+  font-weight: bold;
+}
 .ui-datepicker {
   text-align: center;
 }
@@ -528,6 +561,13 @@ footer a:hover,
 footer a:active {
   text-decoration: none;
 }
+.copyright {
+  background-color: #242323;
+  font-style: 14px;
+  text-align: center;
+  padding: 15px 0;
+  color: white;
+}
 .hotel-search {
   background-color: #242323;
   color: white;
@@ -738,6 +778,12 @@ select {
   opacity: 1;
   /* Firefox */
 
+}
+.hr-spesial hr {
+  color: #242323;
+  border-color: #242323;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 #login-dp {
   min-width: 250px;

@@ -218,6 +218,7 @@ $(document).ready(function() {
 							<div class="nama-hotel">
 								Favehotel Wahid Hasyim
 							</div>
+							<i class="star5"></i>
 						</div>
 						<div class="col-xs-4">
 							<div class="button-pesan">
