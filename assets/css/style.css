@@ -3,10 +3,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .navbar-boboyuk {
-  background-color: #ffffff;
+  background-color: white;
   margin-bottom: 0;
   border: none !important;
-  color: #f58220;
+  color: white;
 }
 .icon-nav1 {
   display: inline-block;
@@ -44,7 +44,42 @@ body {
 }
 .mainbanner .text-banner {
   padding-top: 60px;
-  color: #ffffff;
+  color: white;
+}
+footer {
+  background-color: #6da2d6;
+  color: white;
+  padding: 60px 0;
+}
+footer h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  padding-top: 20px;
+}
+footer ul li img {
+  display: inline-block;
+  padding-right: 5px;
+}
+footer .tentang {
+  margin-top: -30px;
+}
+footer .tentang li {
+  padding-top: 15px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover,
+footer a:active {
+  text-decoration: none;
 }
 .container {
   min-width: 1170px !important;
@@ -64,7 +99,7 @@ body {
 }
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dddddd;
   clear: both;
   padding: 14px;
 }
@@ -78,25 +113,25 @@ body {
   margin-bottom: 10px;
 }
 .btn-fb {
-  color: #fff;
+  color: white;
   background-color: #3b5998;
 }
 .btn-fb:hover {
-  color: #fff;
+  color: white;
   background-color: #496ebc;
 }
 .btn-tw {
-  color: #fff;
+  color: white;
   background-color: #55acee;
 }
 .btn-tw:hover {
-  color: #fff;
+  color: white;
   background-color: #59b5fa;
 }
 @media (max-width: 768px) {
   #login-dp {
     background-color: inherit;
-    color: #fff;
+    color: white;
   }
   #login-dp .bottom {
     background-color: inherit;
