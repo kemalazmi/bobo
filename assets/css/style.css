@@ -46,30 +46,17 @@ body {
   padding-top: 60px;
   color: #ffffff;
 }
-.searchbox {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 15px;
+.cara-memesan h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.cara-memesan p {
   text-align: center;
-  padding-bottom: 0;
+  font-size: 18px;
 }
-.searchbox .hotel-search,
-.searchbox .checkin,
-.searchbox .checkout,
-.searchbox .user {
-  display: inline-block;
-}
-.searchbox .hotel-search {
-  width: 300px;
-}
-.searchbox .checkin,
-.searchbox .checkout {
-  width: 135px;
-}
-.searchbox .dropdown ul li {
-  padding: 15px;
-}
-.searchbox .dropdown ul li input {
-  width: 90px;
+.cara-memesan a {
+  color: #6da2d6;
+  font-size: 18px;
 }
 .ui-datepicker {
   text-align: center;
@@ -331,10 +318,10 @@ footer a:active {
   margin-right: 5px;
 }
 .SearchBox .tab-content .pane1 .LocationHotel {
-  width: 440px;
+  width: 290px;
 }
 .SearchBox .tab-content .pane1 .Date {
-  width: 150px;
+  width: 135px;
   cursor: pointer;
 }
 .SearchBox .tab-content .pane1 .PoR {
@@ -346,7 +333,7 @@ footer a:active {
   border-radius: 0px;
 }
 .SearchBox .tab-content .pane1 .ButtonSearch {
-  width: 150px;
+  width: 130px;
   margin-right: 0px;
 }
 .SearchBox .tab-content .pane1 .ButtonSearch button,
@@ -355,10 +342,11 @@ footer a:active {
   text-decoration: none;
 }
 .container {
-  min-width: 1170px !important;
+  min-width: 970px !important;
+  max-width: 970px;
 }
 body {
-  min-width: 1170px !important;
+  min-width: 970px !important;
   font-family: 'Rubik', sans-serif;
 }
 input,
