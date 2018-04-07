@@ -143,49 +143,97 @@ $(document).ready(function() {
 					<i class="fa fa-cloud-download" aria-hidden="true"></i> <span> Download aplikasi Boboyuk untuk dapatkan harga special!!!</span>
 				</div> 
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-xs-12">
-				<div class="hotel-room">
-					 <div class="row">
-					 	<div class="col-xs-10 col-xs-offset-1">
-					 		<div class="row">
-					 			<div class="col-xs-12">
-					 				<div class="class-room">Superior Room Only</div>
-									<div class="bed">1 Ranjang double</div>
-					 			</div>
-					 			<div class="col-xs-4">
-					 				<ul>
-										<li>
-											<i class="icon-refund"></i>Gratis Parkir
-										</li>
-										<li>
-											<i class="icon-wifi"></i>Gratis Wifi
-										</li>
-										<li>
-											<i class="icon-restoran"></i>Sarapan Gratis
-										</li> 
-									</ul>
-					 			</div>
-					 			<div class="col-xs-4">
-					 				<div class="harga-mulai"> 
-										<strike>IDR 800,000</strike> / per malam
-										<div class="harga">
-											IDR 585,000
-										</div>  
-										<div class="pajak">Sudah termasuk pajak & servis</div>
-									</div>
-					 			</div>
-					 			<div class="col-xs-4">
-					 				<div class="button-pesan">
-										<button type="button" class="btn btn-red btn-block">PESAN SEKARANG</button>
-									</div>
-					 			</div>
-					 		</div> 
-					 	</div>
-					 </div>
+				<div class="hotel-room"> 
+					<?php
+					for ($i=0; $i < 3; $i++) { 
+					?>
+						<div class="bungkus-room">
+						 			<div class="col-xs-12">
+						 				<div class="class-room">Superior Room Only</div>
+										<div class="bed">1 Ranjang double</div>
+						 			</div>
+						 			<div class="col-xs-4">
+						 				<ul>
+											<li>
+												<i class="icon-refund"></i><span>Tidak Dapat dibatalkan</span>
+											</li>
+											<li>
+												<i class="icon-wifi"></i>Gratis Wifi
+											</li>
+											<li>
+												<i class="icon-restoran"></i>Sarapan Gratis
+											</li> 
+										</ul>
+						 			</div>
+						 			<div class="col-xs-4">
+						 				<div class="harga-mulai"> 
+											<strike>IDR 800,000</strike><span> / per malam</span> 
+											<div class="harga">
+												IDR 585,000
+											</div>  
+											<div class="pajak">Sudah termasuk pajak & servis</div>
+										</div>
+						 			</div>
+						 			<div class="col-xs-4">
+						 				<div class="button-pesan">
+											<button type="button" class="btn btn-red btn-block">PESAN SEKARANG</button>
+										</div>
+						 			</div> 
+						 			<div class="col-xs-12">
+						 				<hr>
+						 			</div>
+						 		</div>
+					<?php 
+					}
+					?>
 				</div>
+			</div>
+			<div class="col-xs-12">
+				<hr>
 			</div>
 		</div>
 	</div>
 </section>
+
+<section class="rekomendasi">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="bungkus-rekomendasi">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="hotel-rekomen">
+								Rekomendasi Hotel Lainnya :
+							</div> 
+						</div>
+					</div> 
+					<div class="row">
+						<div class="col-xs-4">
+							<img src="../assets/img/hotel-rekomendasi.jpg" alt="hotel">
+						</div>
+						<div class="col-xs-4">
+							<div class="nama-hotel">
+								Favehotel Wahid Hasyim
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="button-pesan">
+											<button type="button" class="btn btn-red btn-block">PESAN SEKARANG</button>
+										</div>
+						</div>
+					</div> 
+				</div> 
+				 
+					 
+					
+			</div>
+		</div>
+	</div>
+</section>
+
+
 
 <?php include '../layout/footer.php' ?> 
