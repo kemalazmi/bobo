@@ -35,6 +35,50 @@ body {
   width: 20px;
   height: 20px;
 }
+.icon-parking,
+.icon-wifi,
+.icon-restoran,
+.icon-kolamrenang,
+.icon-cs,
+.icon-refund {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  background-image: url(../img/icon-fasilitas.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.icon-transport {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  background-image: url(../img/icon-fasilitas.png);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 30px;
+}
+.icon-parking {
+  background-position: -2px -1px;
+}
+.icon-wifi {
+  background-position: -2px -28px;
+}
+.icon-restoran {
+  background-position: -2px -52px;
+}
+.icon-kolamrenang {
+  background-position: -2px -77px;
+}
+.icon-cs {
+  background-position: -2px -104px;
+}
+.icon-transport {
+  background-position: -2px -132px;
+}
+.icon-refund {
+  background-position: -2px -157px;
+}
 .icon-trans,
 .icon-payment,
 .icon-harga,
@@ -446,6 +490,23 @@ a {
   border: 1px solid #67a3d9;
   color: #67a3d9 !important;
 }
+.btn-red {
+  background-color: #c02626;
+  color: #ffffff;
+  border: 1px solid #c02626;
+  cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.btn-red:active,
+.btn-red:focus,
+.btn-red:hover {
+  background-color: #ffffff;
+  border: 1px solid #c02626;
+  color: #c02626 !important;
+}
 .btn-transparant {
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -515,9 +576,58 @@ footer a:active {
 }
 .hotel-search .btn-pencarian {
   float: right;
+  padding: 5px;
 }
-.hotel-search .btn-pencarian .btn-blue {
-  border-radius: 2px;
+.hotel-pilihan h3 {
+  font-weight: 700;
+}
+.judulfasilitas {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.fasilitas ul {
+  list-style: none;
+  padding-left: 15px;
+  margin: 0;
+}
+.fasilitas ul li {
+  clear: both;
+  padding-top: 10px;
+}
+.tempat-menarik {
+  padding: 30px 0;
+}
+.tempat-menarik li {
+  clear: both;
+  padding-top: 10px;
+}
+.harga-mulai strike {
+  font-size: 14px;
+  color: #bcbcbc;
+}
+.harga-mulai .harga {
+  color: #c02626;
+  font-size: 24px;
+  font-weight: 700;
+}
+.harga-mulai .button-pesan {
+  margin-top: 52px;
+}
+.room .download-aplikasi {
+  background-color: #67a3d9;
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 20px;
+}
+.room .download-aplikasi span {
+  margin-left: 15px;
+}
+.room .hotel-room {
+  margin: 30px 0;
+  background-color: #f0f0f0;
+  border: 1px solid #67a3d9;
 }
 .SearchBox {
   padding-top: 15px;
