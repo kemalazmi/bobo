@@ -22,6 +22,7 @@ border-radius: 0 !important;
  }
 }
 
+
 .btn-red {
  background-color: @red;
  color: @white;
@@ -37,5 +38,23 @@ border-radius: 0 !important;
   background-color: @white;
   border: 1px solid @red;
   color: @red !important;
+ }
+}
+
+  
+.btn-transparant { 
+ color: @white;
+ border: 1px solid @white; 
+ cursor: pointer;
+ -webkit-transition: background-color 0.5s ease-out;
+ -moz-transition: background-color 0.5s ease-out;
+ -o-transition: background-color 0.5s ease-out;
+ transition: background-color 0.5s ease-out;
+ &:active,
+ &:focus,
+ &:hover {  
+  background-color: @blue2;
+  border: 1px solid @blue2;
+  color: @white !important; 
  }
 }
