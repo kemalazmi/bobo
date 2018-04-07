@@ -13,6 +13,9 @@
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/jquery-ui.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/jquery-ui.theme.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 
 
@@ -28,6 +31,7 @@
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery-ui.min.js"></script>
   <script src="../assets/js/main.js"></script>
 
 
