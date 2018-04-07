@@ -106,7 +106,7 @@
             <div class="ButtonSearch">
               <div class="form-group">
                 <a href="../hotel/hotel-search-result.html" class="btn-blue btn-lg btn-block">
-                  <i class="fa fa-search"></i> Search</a>
+                  <i class="fa fa-search"></i> Cari</a>
               </div>
             </div>
             <div class="clearfix"></div>
