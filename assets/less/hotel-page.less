@@ -56,11 +56,14 @@
 		font-weight: 700;
 	}
 	.button-pesan{
-		margin-top: 52px;
+		margin-top: 18%; 
+		button{
+			font-weight: 700;
+		}
 	}
 }
 
-.room{
+.room{ 
 	.download-aplikasi{
 		background-color: @blue2; 
 		color: @white;
@@ -69,10 +72,72 @@
 		span{ 
 			margin-left: 15px;
 		}
-	}
+	} 
 	.hotel-room{
 		margin: 30px 0;
 		background-color: @abu-abu1;
 		border: 1px solid @blue2;
+		float: left;
+		width: 100%;
+		padding: 0 50px; 
+		.bungkus-room{
+			padding: 15px 0;
+			float: left;
+			width: 100%;
+			padding-bottom: 0;
+			&:first-child{
+				padding-top: 40px;
+			}
+			&:last-child{ 
+				padding-bottom: 40px; 
+				hr{
+					display: none;
+				}
+			}
+			
+	}
+	}
+	.class-room{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.bed{
+		font-size: 14px;
+		color: @abu-abu2;
+	}
+	ul{
+		list-style: none;
+		padding:0;
+		margin: 0;
+		li{
+			padding-bottom: 5px;
+		}
+		span{
+			color: @red;
+		}
+	}
+	.harga-mulai{
+		span{
+			color: @abu-abu2;
+		}
+	}
+	ul, .harga-mulai, .button-pesan{
+		padding-top: 15px;
+	}
+	.pajak{
+		font-size: 12px;
+	}
+	.button-pesan{
+		margin-top: 14%; 
+		button{
+			font-weight: 700;
+		}
+	}
+}
+
+.rekomendasi{
+	.bungkus-rekomendasi{
+		padding: 0 65px;
 	}
 }

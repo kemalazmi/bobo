@@ -638,7 +638,10 @@ footer a:active {
   font-weight: 700;
 }
 .harga-mulai .button-pesan {
-  margin-top: 52px;
+  margin-top: 18%;
+}
+.harga-mulai .button-pesan button {
+  font-weight: 700;
 }
 .room .download-aplikasi {
   background-color: #67a3d9;
@@ -653,6 +656,63 @@ footer a:active {
   margin: 30px 0;
   background-color: #f0f0f0;
   border: 1px solid #67a3d9;
+  float: left;
+  width: 100%;
+  padding: 0 50px;
+}
+.room .hotel-room .bungkus-room {
+  padding: 15px 0;
+  float: left;
+  width: 100%;
+  padding-bottom: 0;
+}
+.room .hotel-room .bungkus-room:first-child {
+  padding-top: 40px;
+}
+.room .hotel-room .bungkus-room:last-child {
+  padding-bottom: 40px;
+}
+.room .hotel-room .bungkus-room:last-child hr {
+  display: none;
+}
+.room .class-room {
+  font-size: 20px;
+  font-weight: bold;
+}
+.room .bed {
+  font-size: 14px;
+  color: #bcbcbc;
+}
+.room ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.room ul li {
+  padding-bottom: 5px;
+}
+.room ul span {
+  color: #c02626;
+}
+.room .harga-mulai span {
+  color: #bcbcbc;
+}
+.room ul,
+.room .harga-mulai,
+.room .button-pesan {
+  padding-top: 15px;
+}
+.room .pajak {
+  font-size: 12px;
+}
+.room .button-pesan {
+  margin-top: 14%;
+}
+.room .button-pesan button {
+  font-weight: 700;
+}
+.rekomendasi .bungkus-rekomendasi {
+  padding: 0 65px;
 }
 .SearchBox {
   padding-top: 15px;
@@ -742,6 +802,9 @@ input,
 textarea,
 select {
   border-radius: 0 !important;
+}
+hr {
+  border-color: #bcbcbc;
 }
 select {
   -ms-appreance: none;
