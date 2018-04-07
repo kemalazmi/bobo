@@ -3,10 +3,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .navbar-boboyuk {
-  background-color: #ffffff;
+  background-color: white;
   margin-bottom: 0;
   border: none !important;
-  color: #ffffff;
+  color: white;
 }
 .icon-nav1 {
   display: inline-block;
@@ -40,6 +40,7 @@ body {
 .icon-restoran,
 .icon-kolamrenang,
 .icon-cs,
+.icon-transport,
 .icon-refund {
   display: inline-block;
   float: left;
@@ -48,15 +49,6 @@ body {
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
-}
-.icon-transport {
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-  background-image: url(../img/icon-fasilitas.png);
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 30px;
 }
 .icon-parking {
   background-position: -2px -1px;
@@ -134,7 +126,7 @@ body {
 }
 .mainbanner .text-banner {
   padding-top: 60px;
-  color: #ffffff;
+  color: white;
 }
 .cara-memesan {
   padding-top: 100px;
@@ -207,7 +199,7 @@ body {
   -moz-animation: bounceY 0.9s linear;
   -ms-animation: bounceY 0.9s linear;
   animation: bounceY 0.9s linear;
-  color: #fff;
+  color: white;
 }
 .tujuan-populer .wrap-populer .view-efect .mask .content-text {
   position: relative;
@@ -248,7 +240,7 @@ body {
 .downloadapp {
   background-color: #242323;
   padding: 30px 0;
-  color: #ffffff;
+  color: white;
 }
 .downloadapp .text-downloadapp {
   margin-top: 75px;
@@ -329,7 +321,7 @@ body {
 .ui-datepicker .ui-widget-header {
   border: none !important;
   background: #6da2d6 !important;
-  color: #ffffff;
+  color: white;
   font-weight: bold;
 }
 .ui-datepicker .ui-widget-header .ui-state-default {
@@ -340,12 +332,12 @@ body {
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: #ffffff;
+  background: white;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight a {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .ui-datepicker .ui-widget-content .ui-state-default {
@@ -356,12 +348,12 @@ body {
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: #ffffff;
+  background: white;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight a {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .ui-datepicker .ui-state-default {
@@ -372,18 +364,18 @@ body {
 }
 .ui-datepicker .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: #ffffff;
+  background: white;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight a {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .ui-datepicker .ui-state-active {
   border: none;
   background: #6da2d6;
-  color: #ffffff;
+  color: white;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight,
@@ -396,7 +388,7 @@ body {
 .ui-datepicker-month,
 .ui-datepicker-year {
   background-color: #6da2d6;
-  color: #ffffff;
+  color: white;
   border: none;
 }
 .slider-range .ui-widget-header,
@@ -424,12 +416,13 @@ body {
   border: none;
   background: #67a3d9;
   font-weight: normal;
-  color: #ffffff;
+  color: white;
 }
 .inner-addon {
   position: relative;
 }
 /* style icon */
+
 .inner-addon .fa {
   position: absolute;
   padding-left: 5px;
@@ -470,6 +463,7 @@ body {
   z-index: 1;
 }
 /* align icon */
+
 .left-addon .fa {
   left: 0px;
 }
@@ -477,6 +471,7 @@ body {
   right: 0px;
 }
 /* add padding  */
+
 .left-addon > input {
   padding-left: 25px;
 }
@@ -501,7 +496,7 @@ a {
 }
 .btn-blue {
   background-color: #67a3d9;
-  color: #ffffff;
+  color: white;
   border: 1px solid #67a3d9;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -512,13 +507,13 @@ a {
 .btn-blue:active,
 .btn-blue:focus,
 .btn-blue:hover {
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #67a3d9;
   color: #67a3d9 !important;
 }
 .btn-red {
   background-color: #c02626;
-  color: #ffffff;
+  color: white;
   border: 1px solid #c02626;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -529,13 +524,13 @@ a {
 .btn-red:active,
 .btn-red:focus,
 .btn-red:hover {
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #c02626;
   color: #c02626 !important;
 }
 .btn-transparant {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: white;
+  border: 1px solid white;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
@@ -547,11 +542,11 @@ a {
 .btn-transparant:hover {
   background-color: #67a3d9;
   border: 1px solid #67a3d9;
-  color: #ffffff !important;
+  color: white !important;
 }
 footer {
   background-color: #6da2d6;
-  color: #ffffff;
+  color: white;
   padding: 60px 0;
 }
 footer h4 {
@@ -577,7 +572,7 @@ footer .tentang li {
   padding-top: 15px;
 }
 footer a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 footer a:hover,
@@ -589,11 +584,11 @@ footer a:active {
   font-style: 14px;
   text-align: center;
   padding: 15px 0;
-  color: #ffffff;
+  color: white;
 }
 .hotel-search {
   background-color: #242323;
-  color: #ffffff;
+  color: white;
   padding: 10px 0;
 }
 .hotel-search .judul {
@@ -645,7 +640,7 @@ footer a:active {
 }
 .room .download-aplikasi {
   background-color: #67a3d9;
-  color: #ffffff;
+  color: white;
   padding: 10px 0;
   font-size: 20px;
 }
@@ -713,6 +708,48 @@ footer a:active {
 }
 .rekomendasi .bungkus-rekomendasi {
   padding: 0 65px;
+  padding-bottom: 50px;
+}
+.rekomendasi .bungkus-rekomendasi:last-child {
+  padding-bottom: 120px;
+}
+.rekomendasi .harga-mulai {
+  padding-top: 19%;
+}
+.rekomendasi .hotel-rekomen {
+  font-size: 20px;
+  font-weight: bold;
+  color: #67a3d9;
+  margin: 50px 0;
+  padding: 0 65px;
+}
+.rekomendasi .nama-hotel {
+  font-size: 20px;
+  font-weight: bold;
+}
+.rekomendasi .rating {
+  float: right;
+}
+.rekomendasi .rating .circle {
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid #67a3d9;
+  border-radius: 100%;
+  background-color: white;
+  padding: 8px 0;
+}
+.rekomendasi .button-pesan {
+  margin-top: 37.2%;
+  width: 180px;
+  float: right;
+}
+.rekomendasi .button-pesan button {
+  font-weight: bold;
+}
+.rekomendasi .gambar-rekomendasi {
+  width: 100%;
 }
 .SearchBox {
   padding-top: 15px;
@@ -820,6 +857,7 @@ select {
   color: #555555 !important;
   opacity: 1;
   /* Firefox */
+
 }
 .hr-spesial hr {
   color: #242323;
@@ -838,7 +876,7 @@ select {
 }
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dddddd;
   clear: both;
   padding: 14px;
 }
@@ -852,25 +890,25 @@ select {
   margin-bottom: 10px;
 }
 .btn-fb {
-  color: #fff;
+  color: white;
   background-color: #3b5998;
 }
 .btn-fb:hover {
-  color: #fff;
+  color: white;
   background-color: #496ebc;
 }
 .btn-tw {
-  color: #fff;
+  color: white;
   background-color: #55acee;
 }
 .btn-tw:hover {
-  color: #fff;
+  color: white;
   background-color: #59b5fa;
 }
 @media (max-width: 768px) {
   #login-dp {
     background-color: inherit;
-    color: #fff;
+    color: white;
   }
   #login-dp .bottom {
     background-color: inherit;

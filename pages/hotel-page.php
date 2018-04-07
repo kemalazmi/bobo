@@ -202,31 +202,56 @@ $(document).ready(function() {
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="bungkus-rekomendasi">
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="hotel-rekomen">
 								Rekomendasi Hotel Lainnya :
 							</div> 
 						</div>
-					</div> 
-					<div class="row">
-						<div class="col-xs-4">
-							<img src="../assets/img/hotel-rekomendasi.jpg" alt="hotel">
-						</div>
-						<div class="col-xs-4">
-							<div class="nama-hotel">
-								Favehotel Wahid Hasyim
+					</div>  
+					<?php
+						for ($i=0; $i < 4; $i++) { 
+					?>
+					<div class="bungkus-rekomendasi">
+						<div class="row">
+							<div class="col-xs-4">
+								<div class="gambar-rekomendasi">
+									<img class="img-responsive" src="../assets/img/hotel-rekomendasi.jpg" alt="hotel">
+								</div> 
 							</div>
-							<i class="star5"></i>
-						</div>
-						<div class="col-xs-4">
-							<div class="button-pesan">
-											<button type="button" class="btn btn-red btn-block">PESAN SEKARANG</button>
-										</div>
-						</div>
+							<div class="col-xs-4">
+								<div class="nama-hotel">
+									Favehotel Wahid Hasyim
+								</div>
+								<i class="star5"></i>
+
+								<div class="harga-mulai"> 
+									<strike>IDR 800,000</strike>
+										<div class="harga">
+											IDR 585,000
+										</div>  
+									<div class="pajak">Sudah termasuk pajak & servis</div>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="rating">
+									<div class="circle">
+										7.0
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="button-pesan">
+									<button type="button" class="btn btn-red btn-block">LIHAT</button>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div> 
 					</div> 
-				</div> 
+					<?php 
+						}
+					?> 
+
+
 				 
 					 
 					
