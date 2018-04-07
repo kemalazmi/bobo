@@ -3,10 +3,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .navbar-boboyuk {
-  background-color: #ffffff;
+  background-color: white;
   margin-bottom: 0;
   border: none !important;
-  color: #ffffff;
+  color: white;
 }
 .icon-nav1 {
   display: inline-block;
@@ -44,7 +44,7 @@ body {
 }
 .mainbanner .text-banner {
   padding-top: 60px;
-  color: #ffffff;
+  color: white;
 }
 .cara-memesan h2 {
   font-size: 30px;
@@ -64,7 +64,7 @@ body {
 .ui-datepicker .ui-widget-header {
   border: none !important;
   background: #6da2d6 !important;
-  color: #ffffff;
+  color: white;
   font-weight: bold;
 }
 .ui-datepicker .ui-widget-header .ui-state-default {
@@ -75,12 +75,12 @@ body {
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: #ffffff;
+  background: white;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight a {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .ui-datepicker .ui-widget-content .ui-state-default {
@@ -91,12 +91,12 @@ body {
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: #ffffff;
+  background: white;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight a {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .ui-datepicker .ui-state-default {
@@ -107,18 +107,18 @@ body {
 }
 .ui-datepicker .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: #ffffff;
+  background: white;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight a {
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 .ui-datepicker .ui-state-active {
   border: none;
   background: #6da2d6;
-  color: #ffffff;
+  color: white;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight,
@@ -131,7 +131,7 @@ body {
 .ui-datepicker-month,
 .ui-datepicker-year {
   background-color: #6da2d6;
-  color: #ffffff;
+  color: white;
   border: none;
 }
 .slider-range .ui-widget-header,
@@ -159,12 +159,13 @@ body {
   border: none;
   background: #168b83;
   font-weight: normal;
-  color: #ffffff;
+  color: white;
 }
 .inner-addon {
   position: relative;
 }
 /* style icon */
+
 .inner-addon .fa {
   position: absolute;
   padding-left: 5px;
@@ -205,6 +206,7 @@ body {
   z-index: 1;
 }
 /* align icon */
+
 .left-addon .fa {
   left: 0px;
 }
@@ -212,6 +214,7 @@ body {
   right: 0px;
 }
 /* add padding  */
+
 .left-addon > input {
   padding-left: 25px;
 }
@@ -236,7 +239,7 @@ a {
 }
 .btn-blue {
   background-color: #67a3d9;
-  color: #ffffff;
+  color: white;
   border: 1px solid #67a3d9;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -247,13 +250,13 @@ a {
 .btn-blue:active,
 .btn-blue:focus,
 .btn-blue:hover {
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #67a3d9;
   color: #67a3d9 !important;
 }
 footer {
   background-color: #6da2d6;
-  color: #ffffff;
+  color: white;
   padding: 60px 0;
 }
 footer h4 {
@@ -279,12 +282,27 @@ footer .tentang li {
   padding-top: 15px;
 }
 footer a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 footer a:hover,
 footer a:active {
   text-decoration: none;
+}
+.hotel-search {
+  background-color: #242323;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.hotel-search .judul {
+  font-weight: bold;
+}
+.hotel-search .btn-pencarian {
+  float: right;
+}
+.hotel-search .btn-pencarian .btn-blue {
+  border-radius: 2px;
 }
 .SearchBox {
   padding-top: 15px;
@@ -368,6 +386,7 @@ select {
   color: #555555 !important;
   opacity: 1;
   /* Firefox */
+
 }
 #login-dp {
   min-width: 250px;
@@ -380,7 +399,7 @@ select {
 }
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dddddd;
   clear: both;
   padding: 14px;
 }
@@ -394,25 +413,25 @@ select {
   margin-bottom: 10px;
 }
 .btn-fb {
-  color: #fff;
+  color: white;
   background-color: #3b5998;
 }
 .btn-fb:hover {
-  color: #fff;
+  color: white;
   background-color: #496ebc;
 }
 .btn-tw {
-  color: #fff;
+  color: white;
   background-color: #55acee;
 }
 .btn-tw:hover {
-  color: #fff;
+  color: white;
   background-color: #59b5fa;
 }
 @media (max-width: 768px) {
   #login-dp {
     background-color: inherit;
-    color: #fff;
+    color: white;
   }
   #login-dp .bottom {
     background-color: inherit;
