@@ -1,5 +1,5 @@
 <div class="filter-peta">
-	<a type="button" data-toggle="modal" data-target="#myModal">	<img src="../assets/img/peta.jpg" alt=""></a>
+	<a type="button" data-toggle="modal" data-target="#myModal">	<img src="../assets/img/peta.jpg" alt="" class="img-responsive"></a>
 
 </div> 
 

@@ -3,10 +3,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .navbar-boboyuk {
-  background-color: white;
+  background-color: #ffffff;
   margin-bottom: 0;
   border: none !important;
-  color: white;
+  color: #ffffff;
 }
 .icon-nav1 {
   display: inline-block;
@@ -126,7 +126,7 @@ body {
 }
 .mainbanner .text-banner {
   padding-top: 60px;
-  color: white;
+  color: #ffffff;
 }
 .cara-memesan {
   padding-top: 100px;
@@ -199,7 +199,7 @@ body {
   -moz-animation: bounceY 0.9s linear;
   -ms-animation: bounceY 0.9s linear;
   animation: bounceY 0.9s linear;
-  color: white;
+  color: #fff;
 }
 .tujuan-populer .wrap-populer .view-efect .mask .content-text {
   position: relative;
@@ -240,7 +240,7 @@ body {
 .downloadapp {
   background-color: #242323;
   padding: 30px 0;
-  color: white;
+  color: #ffffff;
 }
 .downloadapp .text-downloadapp {
   margin-top: 75px;
@@ -321,7 +321,7 @@ body {
 .ui-datepicker .ui-widget-header {
   border: none !important;
   background: #6da2d6 !important;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 .ui-datepicker .ui-widget-header .ui-state-default {
@@ -332,12 +332,12 @@ body {
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: white;
+  background: #ffffff;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight a {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .ui-datepicker .ui-widget-content .ui-state-default {
@@ -348,12 +348,12 @@ body {
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: white;
+  background: #ffffff;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight a {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .ui-datepicker .ui-state-default {
@@ -364,18 +364,18 @@ body {
 }
 .ui-datepicker .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: white;
+  background: #ffffff;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight a {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .ui-datepicker .ui-state-active {
   border: none;
   background: #6da2d6;
-  color: white;
+  color: #ffffff;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight,
@@ -388,7 +388,7 @@ body {
 .ui-datepicker-month,
 .ui-datepicker-year {
   background-color: #6da2d6;
-  color: white;
+  color: #ffffff;
   border: none;
 }
 .slider-range .ui-widget-header,
@@ -416,13 +416,12 @@ body {
   border: none;
   background: #67a3d9;
   font-weight: normal;
-  color: white;
+  color: #ffffff;
 }
 .inner-addon {
   position: relative;
 }
 /* style icon */
-
 .inner-addon .fa {
   position: absolute;
   padding-left: 5px;
@@ -463,7 +462,6 @@ body {
   z-index: 1;
 }
 /* align icon */
-
 .left-addon .fa {
   left: 0px;
 }
@@ -471,7 +469,6 @@ body {
   right: 0px;
 }
 /* add padding  */
-
 .left-addon > input {
   padding-left: 25px;
 }
@@ -496,7 +493,7 @@ a {
 }
 .btn-blue {
   background-color: #67a3d9;
-  color: white;
+  color: #ffffff;
   border: 1px solid #67a3d9;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -507,13 +504,13 @@ a {
 .btn-blue:active,
 .btn-blue:focus,
 .btn-blue:hover {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #67a3d9;
   color: #67a3d9 !important;
 }
 .btn-red {
   background-color: #c02626;
-  color: white;
+  color: #ffffff;
   border: 1px solid #c02626;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -524,13 +521,13 @@ a {
 .btn-red:active,
 .btn-red:focus,
 .btn-red:hover {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #c02626;
   color: #c02626 !important;
 }
 .btn-transparant {
-  color: white;
-  border: 1px solid white;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
@@ -542,11 +539,11 @@ a {
 .btn-transparant:hover {
   background-color: #67a3d9;
   border: 1px solid #67a3d9;
-  color: white !important;
+  color: #ffffff !important;
 }
 footer {
   background-color: #6da2d6;
-  color: white;
+  color: #ffffff;
   padding: 60px 0;
 }
 footer h4 {
@@ -572,7 +569,7 @@ footer .tentang li {
   padding-top: 15px;
 }
 footer a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 footer a:hover,
@@ -584,11 +581,11 @@ footer a:active {
   font-style: 14px;
   text-align: center;
   padding: 15px 0;
-  color: white;
+  color: #ffffff;
 }
 .hotel-search {
   background-color: #242323;
-  color: white;
+  color: #ffffff;
   padding: 10px 0;
 }
 .hotel-search .judul {
@@ -640,7 +637,7 @@ footer a:active {
 }
 .room .download-aplikasi {
   background-color: #67a3d9;
-  color: white;
+  color: #ffffff;
   padding: 10px 0;
   font-size: 20px;
 }
@@ -737,7 +734,7 @@ footer a:active {
   text-align: center;
   border: 2px solid #67a3d9;
   border-radius: 100%;
-  background-color: white;
+  background-color: #ffffff;
   padding: 8px 0;
 }
 .rekomendasi .button-pesan {
@@ -806,6 +803,10 @@ footer a:active {
   text-align: center;
   text-decoration: none;
 }
+.content-hotel-list {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
 #filter-hotel .box1,
 #filter-hotel .box2,
 #filter-hotel .box3 {
@@ -826,6 +827,56 @@ footer a:active {
 }
 #filter-hotel .list-star li .checkbox {
   margin-top: 0;
+}
+.list-hotel .bungkus-rekomendasi {
+  padding: 20px 0;
+}
+.list-hotel .bungkus-rekomendasi:first-child {
+  padding-top: 0;
+}
+.list-hotel .download-aplikasi {
+  background-color: #67a3d9;
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 16px;
+}
+.list-hotel .harga-mulai {
+  padding-top: 20px;
+}
+.list-hotel .hotel-rekomen {
+  font-size: 20px;
+  font-weight: bold;
+  color: #67a3d9;
+  margin: 50px 0;
+  padding: 0 65px;
+}
+.list-hotel .nama-hotel {
+  font-size: 20px;
+  font-weight: bold;
+}
+.list-hotel .rating {
+  float: right;
+}
+.list-hotel .rating .circle {
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid #67a3d9;
+  border-radius: 100%;
+  background-color: #ffffff;
+  padding: 8px 0;
+}
+.list-hotel .button-pesan {
+  margin-top: 90px;
+  width: 180px;
+  float: right;
+}
+.list-hotel .button-pesan button {
+  font-weight: bold;
+}
+.list-hotel .gambar-rekomendasi {
+  width: 100%;
 }
 .container {
   min-width: 970px !important;
@@ -872,7 +923,6 @@ select {
   color: #555555 !important;
   opacity: 1;
   /* Firefox */
-
 }
 .hr-spesial hr {
   color: #242323;
@@ -891,7 +941,7 @@ select {
 }
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
   clear: both;
   padding: 14px;
 }
@@ -905,25 +955,25 @@ select {
   margin-bottom: 10px;
 }
 .btn-fb {
-  color: white;
+  color: #fff;
   background-color: #3b5998;
 }
 .btn-fb:hover {
-  color: white;
+  color: #fff;
   background-color: #496ebc;
 }
 .btn-tw {
-  color: white;
+  color: #fff;
   background-color: #55acee;
 }
 .btn-tw:hover {
-  color: white;
+  color: #fff;
   background-color: #59b5fa;
 }
 @media (max-width: 768px) {
   #login-dp {
     background-color: inherit;
-    color: white;
+    color: #fff;
   }
   #login-dp .bottom {
     background-color: inherit;
