@@ -99,6 +99,32 @@ body {
 .icon-offer {
   background-position: -415px 0;
 }
+.star1,
+.star2,
+.star3,
+.star4,
+.star5 {
+  display: block;
+  background-image: url(../img/star.png);
+  width: 18px;
+  height: 18px;
+}
+.star2 {
+  background-repeat: repeat-x;
+  width: 36px;
+}
+.star3 {
+  background-repeat: repeat-x;
+  width: 54px;
+}
+.star4 {
+  background-repeat: repeat-x;
+  width: 72px;
+}
+.star5 {
+  background-repeat: repeat-x;
+  width: 90px;
+}
 .bgimage {
   width: 100%;
   height: 350px;
@@ -376,18 +402,18 @@ body {
 .slider-range .ui-widget-header,
 .time-slider .ui-widget-header {
   border: 1px solid #dddddd;
-  background: #168b83;
+  background: #67a3d9;
   color: #333333;
   font-weight: bold;
 }
 .slider-range .ui-state-default,
 .time-slider .ui-state-default {
-  border: 3px solid #168b83;
+  border: 3px solid #67a3d9;
   background: #f6f6f6;
   font-weight: bold;
   font-size: 20px;
   color: #454545;
-  border-radius: 0;
+  border-radius: 100%;
 }
 .slider-range .ui-state-active,
 .slider-range .ui-widget-content .ui-state-active,
@@ -396,7 +422,7 @@ body {
 .time-slider .ui-widget-content .ui-state-active,
 .time-slider .ui-widget-header .ui-state-active {
   border: none;
-  background: #168b83;
+  background: #67a3d9;
   font-weight: normal;
   color: #ffffff;
 }
@@ -568,7 +594,6 @@ footer a:active {
 .hotel-search {
   background-color: #242323;
   color: #ffffff;
-  margin-top: 10px;
   padding: 10px 0;
 }
 .hotel-search .judul {
@@ -683,6 +708,27 @@ footer a:active {
 .SearchBox .tab-content .pane1 .ButtonSearch a {
   text-align: center;
   text-decoration: none;
+}
+#filter-hotel .box1,
+#filter-hotel .box2,
+#filter-hotel .box3 {
+  padding: 10px 0;
+}
+#filter-hotel .box1 h4,
+#filter-hotel .box2 h4,
+#filter-hotel .box3 h4 {
+  border-bottom: 1px solid #bcbcbc;
+  padding-bottom: 5px;
+}
+#filter-hotel .list-star {
+  margin: 0;
+  padding: 0;
+}
+#filter-hotel .list-star li {
+  list-style: none;
+}
+#filter-hotel .list-star li .checkbox {
+  margin-top: 0;
 }
 .container {
   min-width: 970px !important;
