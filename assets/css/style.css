@@ -313,9 +313,7 @@ footer a:active {
 }
 .hotel-search .btn-pencarian {
   float: right;
-}
-.hotel-search .btn-pencarian .btn-blue {
-  border-radius: 2px;
+  padding: 5px;
 }
 .SearchBox {
   padding-top: 15px;

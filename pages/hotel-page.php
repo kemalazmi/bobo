@@ -9,8 +9,26 @@
 			</div>
 			<div class="col-xs-3">
 				<div class="btn-pencarian">
-					<button type="button" class="btn btn-blue">button</button>
+					<a href="#" class="btn-blue btn btn-lg">GANTI PENCARIAN</a>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3>Favehotel Wahid Hasyim</h3>
+				<p>
+				<?php
+				for ($i=0; $i < 5; $i++) {  
+					echo "<img src='../assets/img/star.png' alt='star'>";
+				}
+				?>
+				</p>
+				<p>Podomoro City Jl. Let. Jend S Parman, Kav 28, Jakarta Barat, Tanjung Duren Selatan, Grogol Petamburan, Jakarta, Indonesia, 11470</p>
 			</div>
 		</div>
 	</div>
