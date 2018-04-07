@@ -1066,6 +1066,20 @@ select {
 hr {
   border-color: #bcbcbc;
 }
+.overlay {
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Black w/ opacity */
+}
 select {
   -ms-appreance: none;
   -moz-appreance: none;
