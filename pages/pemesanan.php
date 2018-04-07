@@ -87,6 +87,51 @@
 						</div>
 					</div>
 				</div>
+				
+				<div class="form-pemesanan">
+						<h3>
+					Data Pemesan
+				</h3>
+				<div class="wrap-box-pemesan">
+					<div class="">
+						<span class="text-danger">
+							Untuk mempermudah komunikasi, pastikan data yang Anda masukkan benar dan masih aktif.
+						</span>
+					</div>
+					<div class="dapem">
+						<form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label class="text-left control-label col-xs-2" for="">Nama:</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" id="" >
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="text-left control-label col-xs-3" for="">Alamat Email:</label>
+    <div class="col-xs-3"> 
+      <input type="email" class="form-control" id="" placeholder="">
+    </div>
+      <label class="text-left control-label col-xs-3 " for="">No. Handaphone:</label>
+    <div class="col-xs-3"> 
+      <input type="text" class="form-control" id="" placeholder="">
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-xs-offset-2 col-xs-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+					</div>
+				</div>
+				</div>
 			</div>
 			<div class="col-xs-4"> 
 			</div>
