@@ -1,7 +1,7 @@
 <?php include '../layout/header.php' ?>
 
 
-<section class="mainbanner bgimage">
+<section class="mainbanner bgimage"> 
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -164,4 +164,21 @@
       </div>
     </div>
   </div>
+</section> 
+	  
+<section class="cara-memesan"> 
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="text-center"> 
+				<h2>Cara Memesan</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
 </section>
+
+<?php include '../layout/footer.php' ?> 
