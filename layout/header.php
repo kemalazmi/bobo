@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/jquery-ui.theme.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/lightslider.css">
 
 
 
@@ -34,6 +35,7 @@
   <script src="../assets/js/jquery-ui.min.js"></script>
   <script src="../assets/js/smooth-scroll.min.js"></script>
   <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/lightslider.js"></script>
 
 
 </head>
