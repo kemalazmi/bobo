@@ -1,10 +1,43 @@
- <section class="pemesanan">
+<?php include '../layout/header.php' ?>
+
+
+<section class="wizard">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class='nav nav-wizard nav-wizard-backnav'>
+          <li >
+            <a >
+              <i class="fa fa-check-circle" aria-hidden="true"></i> Masukan informasi pesanan</a>
+          </li>
+          <li class='active'> 
+            <a href='#step2' data-toggle="tab">  <i class="fa fa-check-circle" aria-hidden="true"></i> Konfirmasi</a>
+          </li>
+          <li>
+            <a>Pembayaran</a>
+          </li>
+          <li>
+            <a>Voucher</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active in" id="step2">
+    <section class="konfirmasi">
       <div class="container">
         <div class="row">
           <div class="col-xs-8">
-            <h3>
-              Rincian Pemesanan
-            </h3>
+            
+            <div class="konfirmasi-box">
+              <h3>
+                Konfirmasi Pemesanan
+              </h3>
+            </div>
+
 
             <div class="wrap-box">
               <div class="row">
@@ -68,131 +101,98 @@
                   </div>
                 </div>
               </div>
-            </div>
+              
 
-            <div class="form-pemesanan">
-              <h3>
-                Data Pemesan
-              </h3>
-              <div class="wrap-box-pemesan">
-                <div class="notif">
-                  <span class="text-danger">
-                    Untuk mempermudah komunikasi, pastikan data yang Anda masukkan benar dan masih aktif.
-                  </span>
+              <div class="row">
+                <div class="col-xs-12">
+                  <hr>
                 </div>
-                <div class="dapem">
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      <label class="text-left control-label col-xs-2" for="">Nama:</label>
-                      <div class="col-xs-10">
-                        <input type="text" class="form-control" id="">
-                      </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="knfirmasi-data"> 
+                  <h4>Data Pemesan</h4>
+                    <ul>
+                      <li>
+                        <div class="row">
+                      <div class="col-xs-3">Nama</div>
+                      <div class="col-xs-1">:</div>
+                      <div class="col-xs-8">Leonardo Wilis</div>
                     </div>
-                    <div class="form-group">
-                      <label class="text-left control-label col-xs-2" for="">Email:</label>
-                      <div class="col-xs-4">
-                        <input type="email" class="form-control" id="" placeholder="">
-                      </div>
-                      <label class="text-left control-label col-xs-2 " for="">No. Handphone:</label>
-                      <div class="col-xs-4">
-                        <input type="text" class="form-control" id="" placeholder="">
-                      </div>
-                    </div>
-                    <h4>
-                      Detail Tamu
-                    </h4>
-                    <div class="form-group">
-                      <label class="text-left control-label col-xs-2" for="">Nama:</label>
-                      <div class="col-xs-10">
-                        <input type="text" class="form-control" id="">
-                      </div>
-                    </div>
-
-                    <div class="notif-blue">
-                      <div>Permintaan Khusus</div>
-                      <p> Pemenuhan permintaan khusus bergantung pada ketersediaan saat check-in.</p>
-                    </div>
-
-                    <div class="fasilitas-hotel">
-                      <div class="form-group">
-                        <label class="text-left control-label col-xs-2" for="">Ranjang :</label>
-                        <div class="col-xs-3">
-                          <div class="radio">
-                            <label>
-                              <input type="radio" name="optradio">Ranjang Twin</label>
-                          </div>
-                        </div>
-                        <div class="col-xs-3">
-                          <div class="radio">
-                            <label>
-                              <input type="radio" name="optradio">Ranjang Besar</label>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                    <div class="opsional">
+                  </li>
+                    <li>
                       <div class="row">
-                        <div class="col-xs-4">
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox" value=""> Check - in lebih awal
-                            </label>
-                          </div>
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox" value=""> Lantai atas
-                            </label>
-                          </div>
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox" value=""> Kamar bebas asap rokok
-                            </label>
-                          </div>
-
-                        </div>
-                        <div class="col-xs-4">
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox" value=""> Tiba - tiba datang terlambat
-                            </label>
-                          </div>
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox" value=""> Kamar bersebelahan
-                            </label>
-                          </div>
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox" value=""> Kamar merokok
-                            </label>
-                          </div>
-
-                        </div>
-                      </div>
+                      <div class="col-xs-3">Email</div>
+                      <div class="col-xs-1">:</div>
+                      <div class="col-xs-8">wilis.leonardo@gmail.com</div>
                     </div>
-
-                    <div class="opsional2">
-                      <p>Jika ada permintaan lain yang belum disebutkan di atas, mohon tuliskan permintaan Anda dalam bahasa
-                        Inggris atau bahasa lokal di lokasi hotel pilihan Anda berada</p>
-
-                      <div>
-                        <textarea class="form-control" rows="4"></textarea>
-                      </div>
-
+                  </li>
+                    <li>
+                      <div class="row">
+                      <div class="col-xs-3">Telepon</div>
+                      <div class="col-xs-1">:</div>
+                      <div class="col-xs-8">0878999999</div>
                     </div>
+                  </li>
+                    </ul>  
+                  </div>
 
+                  <div class="knfirmasi-data"> 
+                   <h4>Data Tamu</h4>
+                    <ul>
+                      <li>
+                        <div class="row">
+                      <div class="col-xs-3">Nama</div>
+                      <div class="col-xs-1">:</div>
+                      <div class="col-xs-8">Leonardo Wilis</div>
+                    </div>
+                  </li>
+                    <li>
+                      <div class="row">
+                      <div class="col-xs-3">Email</div>
+                      <div class="col-xs-1">:</div>
+                      <div class="col-xs-8">wilis.leonardo@gmail.com</div>
+                    </div>
+                  </li>
+                    <li>
+                      <div class="row">
+                      <div class="col-xs-3">Telepon</div>
+                      <div class="col-xs-1">:</div>
+                      <div class="col-xs-8">0878999999</div>
+                    </div>
+                  </li>
+                    </ul> 
+                  </div>
 
-                    <div class="cancel-snk">
+                  <div class="special-req">
+                    <h4>Permintaan Khusus</h4>
+                    <ul>
+                      <li>Chekin Lebih awal</li>
+                        <li>Chekin Lebih awal</li>
+                    </ul>
+                  </div>
+
+                  
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <hr>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12">
+                      <div class="cancel-snk">
                       <h4>Ketentuan Pembatalan</h4>
                       <p class="text-danger">NON-REFUNDABLE
                         <br> Pemesanan tidak dapat dibatalkan dan tidak dapat diubah.</p>
                     </div>
-
-                  </form>
                 </div>
               </div>
             </div>
+
+            
             <div class="next-step">
               <div class="row">
                 <div class="col-xs-8 col-xs-offset-2 text-center">
@@ -240,3 +240,11 @@
         </div>
       </div>
     </section>
+  </div>
+</div>
+
+
+
+
+</div>
+<?php include '../layout/footer.php' ?>

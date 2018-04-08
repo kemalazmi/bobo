@@ -11,13 +11,13 @@
               <i class="fa fa-check-circle" aria-hidden="true"></i> Masukan informasi pesanan</a>
           </li>
           <li>
-            <a href='#step2' data-toggle="tab">Step 2 - Completed</a>
+            <a>Konfirmasi</a>
           </li>
           <li>
-            <a href='#step3' data-toggle="tab">Step 3 - Active</a>
+            <a>Pembayaran</a>
           </li>
           <li>
-            <a>Step 4 - Not Yet Reached</a>
+            <a>Voucher</a>
           </li>
         </ul>
       </div>
@@ -26,7 +26,7 @@
   </div>
 </section>
 <div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade" id="step1">
+  <div class="tab-pane fade active in" id="step1">
     <section class="pemesanan">
       <div class="container">
         <div class="row">
@@ -269,16 +269,6 @@
         </div>
       </div>
     </section>
-  </div>
-  <div class="tab-pane fade active in" id="step2">
-    <?php include '../pages/konfirmasi.php' ?>
-  </div>
-  <div class="tab-pane fade " id="step3">
-    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi
-      farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy
-      salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg
-      banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably
-      haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
   </div>
 </div>
 

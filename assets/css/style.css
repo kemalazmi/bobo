@@ -1147,6 +1147,480 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
   font-size: 36px;
   font-weight: 500;
 }
+.konfirmasi .wrap-box {
+  border: 1px solid #67a3d9;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+.konfirmasi .wrap-box h4 {
+  margin-top: 0;
+}
+.konfirmasi .wrap-box hr {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.konfirmasi .wrap-box .img-wrp {
+  padding-right: 0;
+}
+.konfirmasi .wrap-box .detail-hotel ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: 12px;
+}
+.konfirmasi .wrap-box .detail-hotel ul li {
+  line-height: 1.5;
+}
+.konfirmasi .wrap-box .detail-hotel ul li .cat,
+.konfirmasi .wrap-box .detail-hotel ul li .divider,
+.konfirmasi .wrap-box .detail-hotel ul li .data,
+.konfirmasi .wrap-box .detail-hotel ul li .cat2 {
+  display: inline-block;
+  line-height: 2;
+}
+.konfirmasi .wrap-box .detail-hotel ul li .cat {
+  width: 65px;
+}
+.konfirmasi .wrap-box .detail-hotel ul li .cat2 {
+  width: 83px;
+}
+.konfirmasi .wrap-box .knfirmasi-data {
+  margin: 15px 0;
+  padding: 15px 0;
+}
+.konfirmasi .wrap-box .knfirmasi-data ul {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.konfirmasi .wrap-box .knfirmasi-data ul li {
+  line-height: 2;
+}
+.konfirmasi .wrap-box .special-req {
+  padding: 15px 0;
+  margin: 15px 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.konfirmasi .wrap-box .special-req ul {
+  padding-left: 15px;
+  margin: 0;
+}
+.konfirmasi .wrap-box .special-req ul li {
+  line-height: 2;
+}
+.konfirmasi .wrap-box .cancel-snk {
+  margin-top: 15px;
+  padding-top: 15px;
+}
+.konfirmasi .next-step {
+  margin: 60px 0;
+}
+.konfirmasi .next-step .btn-next {
+  margin: 60px 0;
+}
+.konfirmasi .detail-order {
+  margin: 56px 0;
+}
+.konfirmasi .detail-order .wrap-box {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #67a3d9;
+}
+.konfirmasi .detail-order .wrap-box .price,
+.konfirmasi .detail-order .wrap-box .text {
+  font-size: 12px;
+}
+.konfirmasi .detail-order .wrap-box .price {
+  text-align: right;
+}
+.konfirmasi .detail-order .wrap-box .total {
+  border-top: 1px solid #bcbcbc;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-top: 80px;
+}
+.konfirmasi .detail-order .wrap-box .total h4 {
+  margin: 0;
+}
+.konfirmasi .detail-order .wrap-box .total .tprice {
+  font-size: 36px;
+  font-weight: 500;
+}
+.pembayaran .wrap-countdown {
+  background-color: #ded6d6;
+  padding: 15px;
+  text-align: center;
+  margin: 15px 0;
+  margin-bottom: 30px;
+}
+.pembayaran .wrap-countdown #hms {
+  color: #c02626;
+}
+.pembayaran .payment-method {
+  margin-bottom: 60px;
+  background-color: #f5f5f5;
+  border: 1px solid #67a3d9;
+  border-left: none;
+}
+.pembayaran .payment-method .col-xs-4 {
+  padding-right: 0;
+}
+.pembayaran .payment-method .nav-payment {
+  min-height: 750px;
+  margin-bottom: 0;
+  background-color: #333333;
+}
+.pembayaran .payment-method .nav-payment li {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.pembayaran .payment-method .nav-payment li a {
+  margin-right: 0;
+  border: none;
+  color: #ffffff;
+}
+.pembayaran .payment-method .nav-payment li.active,
+.pembayaran .payment-method .nav-payment li:hover,
+.pembayaran .payment-method .nav-payment li:active {
+  background-color: #f5f5f5;
+}
+.pembayaran .payment-method .nav-payment li.active a,
+.pembayaran .payment-method .nav-payment li:hover a,
+.pembayaran .payment-method .nav-payment li:active a {
+  color: #555555;
+  background-color: #f5f5f5;
+  margin-right: 0;
+  border: none;
+}
+.pembayaran .payment-method #trf {
+  padding: 0;
+}
+.pembayaran .payment-method #trf .heading-title,
+.pembayaran .payment-method #trf .subhead-title {
+  padding: 0 15px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #trf .choose-bank {
+  margin-right: 15px;
+  padding: 0 15px;
+}
+.pembayaran .payment-method #trf .choose-bank input[type=checkbox],
+.pembayaran .payment-method #trf .choose-bank input[type=radio] {
+  margin-top: 2px !important;
+}
+.pembayaran .payment-method #trf .promo {
+  padding: 0 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.pembayaran .payment-method #trf .promo p {
+  color: #67a3d9;
+}
+.pembayaran .payment-method #trf .order-detail {
+  padding: 15px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #trf .order-detail ul {
+  padding-left: 15px;
+  margin: 0;
+  list-style-type: none;
+}
+.pembayaran .payment-method #trf .order-detail ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.pembayaran .payment-method #trf .snk-payment {
+  margin-top: 30px;
+  padding: 15px;
+  padding-bottom: 60px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #trf .snk-payment .btn-payment {
+  margin-top: 15px;
+}
+.pembayaran .payment-method #atm,
+.pembayaran .payment-method #indomart,
+.pembayaran .payment-method #alfamart {
+  padding: 0;
+}
+.pembayaran .payment-method #atm .heading-title,
+.pembayaran .payment-method #indomart .heading-title,
+.pembayaran .payment-method #alfamart .heading-title,
+.pembayaran .payment-method #atm .subhead-title,
+.pembayaran .payment-method #indomart .subhead-title,
+.pembayaran .payment-method #alfamart .subhead-title {
+  padding: 0 15px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #atm .order-detail,
+.pembayaran .payment-method #indomart .order-detail,
+.pembayaran .payment-method #alfamart .order-detail {
+  padding: 15px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #atm .order-detail ul,
+.pembayaran .payment-method #indomart .order-detail ul,
+.pembayaran .payment-method #alfamart .order-detail ul {
+  padding-left: 15px;
+  margin: 0;
+  list-style-type: none;
+}
+.pembayaran .payment-method #atm .order-detail ul li,
+.pembayaran .payment-method #indomart .order-detail ul li,
+.pembayaran .payment-method #alfamart .order-detail ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.pembayaran .payment-method #atm .snk-payment,
+.pembayaran .payment-method #indomart .snk-payment,
+.pembayaran .payment-method #alfamart .snk-payment {
+  margin-top: 30px;
+  padding: 15px;
+  padding-bottom: 60px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #atm .snk-payment .btn-payment,
+.pembayaran .payment-method #indomart .snk-payment .btn-payment,
+.pembayaran .payment-method #alfamart .snk-payment .btn-payment {
+  margin-top: 15px;
+}
+.pembayaran .payment-method #atm .subhead-title,
+.pembayaran .payment-method #indomart .subhead-title,
+.pembayaran .payment-method #alfamart .subhead-title {
+  font-size: 16px;
+}
+.pembayaran .payment-method #atm .subhead-title h5,
+.pembayaran .payment-method #indomart .subhead-title h5,
+.pembayaran .payment-method #alfamart .subhead-title h5 {
+  font-size: 16px;
+}
+.pembayaran .payment-method #atm .info-atm,
+.pembayaran .payment-method #indomart .info-atm,
+.pembayaran .payment-method #alfamart .info-atm {
+  padding: 15px;
+  padding-top: 0;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #atm .info-atm .list-info,
+.pembayaran .payment-method #indomart .info-atm .list-info,
+.pembayaran .payment-method #alfamart .info-atm .list-info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  background-color: #d7e8f9;
+  border-left: 2px solid #67a3d9;
+}
+.pembayaran .payment-method #cc {
+  padding: 0;
+}
+.pembayaran .payment-method #cc .heading-title,
+.pembayaran .payment-method #cc .subhead-title {
+  padding: 0 15px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #cc .cc-1 {
+  margin-top: 15px;
+}
+.pembayaran .payment-method #cc .cc-3 {
+  margin-bottom: 30px;
+}
+.pembayaran .payment-method #cc .cc-2,
+.pembayaran .payment-method #cc .cc-1,
+.pembayaran .payment-method #cc .cc-3 {
+  padding: 0 15px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #cc .cc-2 label,
+.pembayaran .payment-method #cc .cc-1 label,
+.pembayaran .payment-method #cc .cc-3 label {
+  font-weight: normal;
+}
+.pembayaran .payment-method #cc .promo {
+  padding: 0 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.pembayaran .payment-method #cc .promo p {
+  color: #67a3d9;
+}
+.pembayaran .payment-method #cc .order-detail {
+  padding: 15px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #cc .order-detail ul {
+  padding-left: 15px;
+  margin: 0;
+  list-style-type: none;
+}
+.pembayaran .payment-method #cc .order-detail ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.pembayaran .payment-method #cc .snk-payment {
+  margin-top: 30px;
+  padding: 15px;
+  padding-bottom: 60px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method #cc .snk-payment .btn-payment {
+  margin-top: 15px;
+}
+.pembayaran .payment-method .tab-payment {
+  padding: 0;
+}
+.pembayaran .payment-method .tab-payment .cc-1 {
+  margin-top: 15px;
+}
+.pembayaran .payment-method .tab-payment .cc-3 {
+  margin-bottom: 30px;
+}
+.pembayaran .payment-method .tab-payment .cc-2,
+.pembayaran .payment-method .tab-payment .cc-1,
+.pembayaran .payment-method .tab-payment .cc-3 {
+  padding: 0 15px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method .tab-payment .cc-2 label,
+.pembayaran .payment-method .tab-payment .cc-1 label,
+.pembayaran .payment-method .tab-payment .cc-3 label {
+  font-weight: normal;
+}
+.pembayaran .payment-method .tab-payment .promo {
+  padding: 0 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.pembayaran .payment-method .tab-payment .promo p {
+  color: #67a3d9;
+}
+.pembayaran .payment-method .tab-payment .order-detail {
+  padding: 15px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+.pembayaran .payment-method .tab-payment .order-detail ul {
+  padding-left: 15px;
+  margin: 0;
+  list-style-type: none;
+}
+.pembayaran .payment-method .tab-payment .order-detail ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.pembayaran .payment-method .tab-payment .snk-payment {
+  margin-top: 30px;
+  padding: 15px;
+  padding-bottom: 60px;
+  margin-right: 15px;
+}
+.pembayaran .payment-method .tab-payment .snk-payment .btn-payment {
+  margin-top: 15px;
+}
+.pembayaran .payment-method .tab-payment .subhead-title {
+  font-size: 16px;
+}
+.pembayaran .payment-method .tab-payment .subhead-title h5 {
+  font-size: 16px;
+}
+.pembayaran .payment-method .tab-payment .info-atm {
+  padding: 15px;
+  padding-top: 0;
+  margin-right: 15px;
+}
+.pembayaran .payment-method .tab-payment .info-atm .list-info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  background-color: #d7e8f9;
+  border-left: 2px solid #67a3d9;
+}
+.pembayaran .booking-order {
+  background-color: #f5f5f5;
+  padding: 15px;
+  padding-bottom: 60px;
+  border: 1px solid #67a3d9;
+}
+.pembayaran .booking-order .booking-code h4 {
+  color: #67a3d9;
+}
+.pembayaran .booking-order .booking-reser {
+  font-size: 12px;
+  margin-top: 30px;
+}
+.pembayaran .booking-order .booking-reser h4 {
+  color: #67a3d9;
+}
+.pembayaran .booking-order .detail-reser {
+  font-size: 12px;
+}
+.pembayaran .booking-order .detail-reser h4 {
+  color: #67a3d9;
+}
+.pembayaran .booking-order .detail-reser ul {
+  padding-left: 15px;
+}
+.pembayaran .booking-order .warning-reser {
+  margin-top: 30px;
+}
+.voucher {
+  margin: 70px 0;
+}
+.voucher .wrp-voucher {
+  padding: 40px;
+  border: 1px solid #67a3d9;
+  background-color: #f5f5f5;
+}
+.voucher .wrp-voucher .head {
+  text-align: center;
+  color: #67a3d9;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bcbcbc;
+}
+.voucher .wrp-voucher .head h3 {
+  margin: 0;
+}
+.voucher .wrp-voucher .hotel-name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #555555;
+  padding-top: 30px;
+}
+.voucher .wrp-voucher .hotel-img {
+  text-align: center;
+}
+.voucher .wrp-voucher .hotel-img img {
+  margin: 0 auto;
+  width: 100%;
+}
+.voucher .wrp-voucher .final-state {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.modal-voucher {
+  border-radius: 0;
+  padding: 0;
+  min-height: 230px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-image: url("../img/logo-modal.png");
+  background-repeat: no-repeat;
+  background-position: -5px 105px;
+}
+.modal-voucher .thanks-word {
+  font-size: 24px;
+  color: #67a3d9;
+  margin-bottom: 15px;
+}
+.modal-voucher div {
+  font-size: 18px;
+}
 .container {
   min-width: 970px !important;
   max-width: 970px;
@@ -1162,6 +1636,9 @@ input,
 textarea,
 select {
   border-radius: 0 !important;
+}
+.tblue {
+  color: #67a3d9;
 }
 hr {
   border-color: #bcbcbc;
