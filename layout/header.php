@@ -41,6 +41,8 @@
 </head>
 
 <body>
+  <div class="overlay-login"> 
+</div>
 <div class="container">
   <div class="row">
   <nav class="navbar navbar-default navbar-boboyuk">
@@ -91,45 +93,95 @@
               <i class="glyphicon glyphicon-menu-down" aria-hidden="true"></i>
             </a>
             <ul id="login-dp" class="dropdown-menu">
-              <li>
+              <li class="login">
                 <div class="row">
-                  <div class="col-md-12">
-                    Login via
+                  <div class="col-xs-12">
+                    <div class="gabung">Login ke Akun Anda</div>
                     <div class="social-buttons">
                       <a href="#" class="btn btn-fb">
-                        <i class="fa fa-facebook"></i> Facebook</a>
-                      <a href="#" class="btn btn-tw">
-                        <i class="fa fa-twitter"></i> Twitter</a>
+                        <i class="fa fa-facebook"></i> &nbsp;&nbsp;Login dengan Facebook</a> 
                     </div>
-                    or
-                    <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                    <div class="social-buttons">
+                      <a href="#" class="btn btn-google">
+                        <i class="fa fa-google-plus"></i> &nbsp;&nbsp;Login dengan Google</a> 
+                    </div> 
+                    <form class="form login" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
                       <div class="form-group">
-                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
                       </div>
                       <div class="form-group">
-                        <label class="sr-only" for="exampleInputPassword2">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-                        <div class="help-block text-right">
-                          <a href="">Forget the password ?</a>
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <label for="password">Kata sandi</label>
+                          </div>
+                          <div class="col-xs-6">
+                            <div class="help-block text-right">
+                              <a href="">Lupa kata sandi?</a>
+                            </div>
+                          </div>
+                        </div>  
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required> 
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-3">
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-blue">Login</button>
+                          </div> 
                         </div>
+                        <div class="col-xs-9">
+                          <div class="daftar"> 
+                          Belum Punya Akun ? <a href="#">Daftar</a>
+                          </div>
+                        </div>
+                      </div> 
+                    </form>
+                  </div> 
+                </div>
+              </li>
+
+              <li class="signup">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="gabung">Ayo, gabung jadi member</div>
+                    <div class="social-buttons">
+                      <a href="#" class="btn btn-fb">
+                        <i class="fa fa-facebook"></i> &nbsp;&nbsp;Login dengan Facebook</a> 
+                    </div>  
+                    <form class="form signup" role="form" method="post" action="signup" accept-charset="UTF-8" id="signup-nav">
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                      <div class="form-group"> 
+                        <label for="password">Kata sandi</label>   
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                        <p>Kata sandi bersifat sensitif terhadap huruf besar dan kecil dan harus berjumlah paling tidak 8 karakter.</p> 
                       </div>
                       <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                      </div>
+                        <label for="namadepan">Nama Depan</label>
+                        <input type="text" class="form-control" id="namadepan">
+                      </div> 
+                      <div class="form-group">
+                        <label for="damabelakang">Nama Belakang</label>
+                        <input type="text" class="form-control" id="namabelakang">
+                      </div> 
                       <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> keep me logged-in
-                        </label>
+                       <label>
+                       <input type="checkbox"> Berlangganan info penawaran & promosi spesial
+                       </label>
+                      </div> 
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-blue">Daftar</button>
+                      </div>   
+                      <div class="setuju">
+                        Dengan melakukan pendaftaran, saya setuju dengan <span>Ketentuan Penggunaan</span> dan <span>Kebijakan Privasi boboyuk.</span>
+                      </div>
+                      <div class="daftar text-center"> 
+                        Sudah Punya Akun ? <a href="#">Login</a>
                       </div>
                     </form>
-                  </div>
-                  <div class="bottom text-center">
-                    New here ?
-                    <a href="#">
-                      <b>Join Us</b>
-                    </a>
-                  </div>
+                  </div> 
                 </div>
               </li>
             </ul>

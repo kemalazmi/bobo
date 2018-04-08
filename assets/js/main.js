@@ -69,6 +69,35 @@ $( function() {
   } );
 
 
+// Add slideDown animation to Bootstrap dropdown when expanding.
+  $('.dropdown').on('show.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
+    $('.overlay-login').addClass("overlay");
+    $('.glyphicon').removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
+  });
+
+  // Add slideUp animation to Bootstrap dropdown when collapsing.
+  $('.dropdown').on('hide.bs.dropdown', function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+   $('.overlay-login').removeClass("overlay");; 
+    $('.glyphicon').removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
+  });
+
+  
+
 
 });
+ 
+ 
+$(function(){
+    $('#lightSlider').lightSlider({
+    gallery: true,
+    item: 1,
+    loop: true,
+    slideMargin: 0,
+    thumbItem: 4
+});
+  });
+ 
+
  
