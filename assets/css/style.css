@@ -1261,7 +1261,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method {
   margin-bottom: 60px;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   border: 1px solid #67a3d9;
   border-left: none;
 }
@@ -1280,18 +1280,18 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 .pembayaran .payment-method .nav-payment li a {
   margin-right: 0;
   border: none;
-  color: #ffffff;
+  color: white;
 }
 .pembayaran .payment-method .nav-payment li.active,
 .pembayaran .payment-method .nav-payment li:hover,
 .pembayaran .payment-method .nav-payment li:active {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
 }
 .pembayaran .payment-method .nav-payment li.active a,
 .pembayaran .payment-method .nav-payment li:hover a,
 .pembayaran .payment-method .nav-payment li:active a {
   color: #555555;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   margin-right: 0;
   border: none;
 }
@@ -1321,7 +1321,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method #trf .order-detail {
   padding: 15px;
-  background-color: #ffffff;
+  background-color: white;
   margin-right: 15px;
 }
 .pembayaran .payment-method #trf .order-detail ul {
@@ -1360,7 +1360,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 .pembayaran .payment-method #indomart .order-detail,
 .pembayaran .payment-method #alfamart .order-detail {
   padding: 15px;
-  background-color: #ffffff;
+  background-color: white;
   margin-right: 15px;
 }
 .pembayaran .payment-method #atm .order-detail ul,
@@ -1450,7 +1450,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method #cc .order-detail {
   padding: 15px;
-  background-color: #ffffff;
+  background-color: white;
   margin-right: 15px;
 }
 .pembayaran .payment-method #cc .order-detail ul {
@@ -1501,7 +1501,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method .tab-payment .order-detail {
   padding: 15px;
-  background-color: #ffffff;
+  background-color: white;
   margin-right: 15px;
 }
 .pembayaran .payment-method .tab-payment .order-detail ul {
@@ -1541,7 +1541,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
   border-left: 2px solid #67a3d9;
 }
 .pembayaran .booking-order {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
   padding: 15px;
   padding-bottom: 60px;
   border: 1px solid #67a3d9;
@@ -1574,7 +1574,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 .voucher .wrp-voucher {
   padding: 40px;
   border: 1px solid #67a3d9;
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
 }
 .voucher .wrp-voucher .head {
   text-align: center;
@@ -1649,7 +1649,7 @@ hr {
 .overlay {
   position: fixed;
   /* Stay in place */
-  z-index: 1;
+  z-index: 1000;
   /* Sit on top */
   left: 0;
   top: 0;
