@@ -3,10 +3,10 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .navbar-boboyuk {
-  background-color: white;
+  background-color: #ffffff;
   margin-bottom: 0;
   border: none !important;
-  color: white;
+  color: #ffffff;
 }
 .icon-nav1 {
   display: inline-block;
@@ -126,14 +126,14 @@ body {
 }
 .mainbanner .text-banner {
   padding-top: 60px;
-  color: white;
+  color: #ffffff;
 }
 .cara-memesan {
   padding-top: 100px;
 }
 .cara-memesan .content-memesan {
   padding-bottom: 70px;
-  border-bottom: 1px solid #242323;
+  border-bottom: 1px solid #bcbcbc;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -199,7 +199,7 @@ body {
   -moz-animation: bounceY 0.9s linear;
   -ms-animation: bounceY 0.9s linear;
   animation: bounceY 0.9s linear;
-  color: white;
+  color: #fff;
 }
 .tujuan-populer .wrap-populer .view-efect .mask .content-text {
   position: relative;
@@ -211,7 +211,7 @@ body {
   min-width: 150px;
 }
 .tujuan-populer hr {
-  border-color: #242323;
+  border-color: #bcbcbc;
   margin-top: 80px;
   margin-bottom: 30px;
 }
@@ -240,7 +240,7 @@ body {
 .downloadapp {
   background-color: #242323;
   padding: 30px 0;
-  color: white;
+  color: #ffffff;
 }
 .downloadapp .text-downloadapp {
   margin-top: 75px;
@@ -321,7 +321,7 @@ body {
 .ui-datepicker .ui-widget-header {
   border: none !important;
   background: #6da2d6 !important;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 .ui-datepicker .ui-widget-header .ui-state-default {
@@ -332,12 +332,12 @@ body {
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: white;
+  background: #ffffff;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-header .ui-state-highlight a {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .ui-datepicker .ui-widget-content .ui-state-default {
@@ -348,12 +348,12 @@ body {
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: white;
+  background: #ffffff;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-widget-content .ui-state-highlight a {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .ui-datepicker .ui-state-default {
@@ -364,18 +364,18 @@ body {
 }
 .ui-datepicker .ui-state-highlight {
   border: 0.5px solid #6da2d6;
-  background: white;
+  background: #ffffff;
   color: #454545;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight a {
-  color: white;
+  color: #ffffff;
   text-align: center;
 }
 .ui-datepicker .ui-state-active {
   border: none;
   background: #6da2d6;
-  color: white;
+  color: #ffffff;
   border-radius: 0;
 }
 .ui-datepicker .ui-state-highlight,
@@ -388,7 +388,7 @@ body {
 .ui-datepicker-month,
 .ui-datepicker-year {
   background-color: #6da2d6;
-  color: white;
+  color: #ffffff;
   border: none;
 }
 .slider-range .ui-widget-header,
@@ -416,13 +416,12 @@ body {
   border: none;
   background: #67a3d9;
   font-weight: normal;
-  color: white;
+  color: #ffffff;
 }
 .inner-addon {
   position: relative;
 }
 /* style icon */
-
 .inner-addon .fa {
   position: absolute;
   padding-left: 5px;
@@ -463,7 +462,6 @@ body {
   z-index: 1;
 }
 /* align icon */
-
 .left-addon .fa {
   left: 0px;
 }
@@ -471,7 +469,6 @@ body {
   right: 0px;
 }
 /* add padding  */
-
 .left-addon > input {
   padding-left: 25px;
 }
@@ -496,7 +493,7 @@ a {
 }
 .btn-blue {
   background-color: #67a3d9;
-  color: white;
+  color: #ffffff;
   border: 1px solid #67a3d9;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -507,13 +504,13 @@ a {
 .btn-blue:active,
 .btn-blue:focus,
 .btn-blue:hover {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #67a3d9;
   color: #67a3d9 !important;
 }
 .btn-red {
   background-color: #c02626;
-  color: white;
+  color: #ffffff;
   border: 1px solid #c02626;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
@@ -524,13 +521,13 @@ a {
 .btn-red:active,
 .btn-red:focus,
 .btn-red:hover {
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #c02626;
   color: #c02626 !important;
 }
 .btn-transparant {
-  color: white;
-  border: 1px solid white;
+  color: #ffffff;
+  border: 1px solid #ffffff;
   cursor: pointer;
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
@@ -542,11 +539,11 @@ a {
 .btn-transparant:hover {
   background-color: #67a3d9;
   border: 1px solid #67a3d9;
-  color: white !important;
+  color: #ffffff !important;
 }
 footer {
   background-color: #6da2d6;
-  color: white;
+  color: #ffffff;
   padding: 60px 0;
 }
 footer h4 {
@@ -572,7 +569,7 @@ footer .tentang li {
   padding-top: 15px;
 }
 footer a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 footer a:hover,
@@ -584,11 +581,11 @@ footer a:active {
   font-style: 14px;
   text-align: center;
   padding: 15px 0;
-  color: white;
+  color: #ffffff;
 }
 .hotel-search {
   background-color: #242323;
-  color: white;
+  color: #ffffff;
   padding: 10px 0;
 }
 .hotel-search .judul {
@@ -640,7 +637,7 @@ footer a:active {
 }
 .room .download-aplikasi {
   background-color: #67a3d9;
-  color: white;
+  color: #ffffff;
   padding: 10px 0;
   font-size: 20px;
 }
@@ -737,7 +734,7 @@ footer a:active {
   text-align: center;
   border: 2px solid #67a3d9;
   border-radius: 100%;
-  background-color: white;
+  background-color: #ffffff;
   padding: 8px 0;
 }
 .rekomendasi .button-pesan {
@@ -839,7 +836,7 @@ footer a:active {
 }
 .list-hotel .download-aplikasi {
   background-color: #67a3d9;
-  color: white;
+  color: #ffffff;
   padding: 10px 0;
   font-size: 16px;
 }
@@ -867,7 +864,7 @@ footer a:active {
   text-align: center;
   border: 2px solid #67a3d9;
   border-radius: 100%;
-  background-color: white;
+  background-color: #ffffff;
   padding: 8px 0;
 }
 .list-hotel .button-pesan {
@@ -909,8 +906,8 @@ ul.nav-wizard:after {
   right: 0px;
   top: 138px;
   height: 47px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   z-index: 11;
   content: " ";
 }
@@ -926,7 +923,7 @@ ul.nav-wizard li {
   line-height: 46px;
 }
 ul.nav-wizard li a {
-  color: white;
+  color: #ffffff;
   padding: 0;
 }
 ul.nav-wizard li a:hover {
@@ -941,7 +938,7 @@ ul.nav-wizard li:before {
   top: -1px;
   z-index: 10;
   content: '';
-  border-left: 16px solid white;
+  border-left: 16px solid #ffffff;
   right: -16px;
 }
 ul.nav-wizard li:after {
@@ -956,7 +953,7 @@ ul.nav-wizard li:after {
   right: -15px;
 }
 ul.nav-wizard li.active {
-  color: white;
+  color: #ffffff;
   background: #67a3d9;
 }
 ul.nav-wizard li.active:after {
@@ -966,11 +963,11 @@ ul.nav-wizard li.active a,
 ul.nav-wizard li.active a:active,
 ul.nav-wizard li.active a:visited,
 ul.nav-wizard li.active a:focus {
-  color: white;
+  color: #ffffff;
   background: #67a3d9;
 }
 ul.nav-wizard .active ~ li {
-  color: white;
+  color: #ffffff;
   background: #67a3d9;
 }
 ul.nav-wizard .active ~ li:after {
@@ -980,11 +977,11 @@ ul.nav-wizard .active ~ li a,
 ul.nav-wizard .active ~ li a:active,
 ul.nav-wizard .active ~ li a:visited,
 ul.nav-wizard .active ~ li a:focus {
-  color: white;
+  color: #ffffff;
   background: #67a3d9;
 }
 ul.nav-wizard.nav-wizard-backnav li:hover {
-  color: white;
+  color: #ffffff;
   background: #84b4e0;
 }
 ul.nav-wizard.nav-wizard-backnav li:hover:after {
@@ -994,11 +991,11 @@ ul.nav-wizard.nav-wizard-backnav li:hover a,
 ul.nav-wizard.nav-wizard-backnav li:hover a:active,
 ul.nav-wizard.nav-wizard-backnav li:hover a:visited,
 ul.nav-wizard.nav-wizard-backnav li:hover a:focus {
-  color: white;
+  color: #ffffff;
   background: #84b4e0;
 }
 ul.nav-wizard.nav-wizard-backnav .active ~ li {
-  color: white;
+  color: #ffffff;
   background: #67a3d9;
 }
 ul.nav-wizard.nav-wizard-backnav .active ~ li:after {
@@ -1008,7 +1005,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a,
 ul.nav-wizard.nav-wizard-backnav .active ~ li a:active,
 ul.nav-wizard.nav-wizard-backnav .active ~ li a:visited,
 ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
-  color: white;
+  color: #ffffff;
   background: #67a3d9;
 }
 .wizard {
@@ -1016,7 +1013,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .breadcrumb-step .breadcrumb > li + li:before {
   padding: 0 5px;
-  color: #cccccc;
+  color: #ccc;
   content: "\f137";
 }
 .pemesanan .wrap-box {
@@ -1261,7 +1258,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method {
   margin-bottom: 60px;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   border: 1px solid #67a3d9;
   border-left: none;
 }
@@ -1280,18 +1277,18 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 .pembayaran .payment-method .nav-payment li a {
   margin-right: 0;
   border: none;
-  color: white;
+  color: #ffffff;
 }
 .pembayaran .payment-method .nav-payment li.active,
 .pembayaran .payment-method .nav-payment li:hover,
 .pembayaran .payment-method .nav-payment li:active {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 .pembayaran .payment-method .nav-payment li.active a,
 .pembayaran .payment-method .nav-payment li:hover a,
 .pembayaran .payment-method .nav-payment li:active a {
   color: #555555;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   margin-right: 0;
   border: none;
 }
@@ -1321,7 +1318,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method #trf .order-detail {
   padding: 15px;
-  background-color: white;
+  background-color: #ffffff;
   margin-right: 15px;
 }
 .pembayaran .payment-method #trf .order-detail ul {
@@ -1360,7 +1357,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 .pembayaran .payment-method #indomart .order-detail,
 .pembayaran .payment-method #alfamart .order-detail {
   padding: 15px;
-  background-color: white;
+  background-color: #ffffff;
   margin-right: 15px;
 }
 .pembayaran .payment-method #atm .order-detail ul,
@@ -1450,7 +1447,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method #cc .order-detail {
   padding: 15px;
-  background-color: white;
+  background-color: #ffffff;
   margin-right: 15px;
 }
 .pembayaran .payment-method #cc .order-detail ul {
@@ -1501,7 +1498,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 }
 .pembayaran .payment-method .tab-payment .order-detail {
   padding: 15px;
-  background-color: white;
+  background-color: #ffffff;
   margin-right: 15px;
 }
 .pembayaran .payment-method .tab-payment .order-detail ul {
@@ -1541,7 +1538,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
   border-left: 2px solid #67a3d9;
 }
 .pembayaran .booking-order {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
   padding: 15px;
   padding-bottom: 60px;
   border: 1px solid #67a3d9;
@@ -1574,7 +1571,7 @@ ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
 .voucher .wrp-voucher {
   padding: 40px;
   border: 1px solid #67a3d9;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 .voucher .wrp-voucher .head {
   text-align: center;
@@ -1659,7 +1656,6 @@ hr {
   /* Full height */
   background-color: rgba(0, 0, 0, 0.5);
   /* Black w/ opacity */
-
 }
 select {
   -ms-appreance: none;
@@ -1675,11 +1671,10 @@ select {
   color: #555555 !important;
   opacity: 1;
   /* Firefox */
-
 }
 .hr-spesial hr {
   color: #242323;
-  border-color: #242323;
+  border-color: #bcbcbc;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -1688,7 +1683,7 @@ select {
   min-width: 285px;
   padding: 14px 14px 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid #67a3d9;
 }
 #login-dp label {
@@ -1726,7 +1721,7 @@ select {
 }
 #login-dp .bottom {
   background-color: rgba(255, 255, 255, 0.8);
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #ddd;
   clear: both;
   padding: 14px;
 }
@@ -1740,25 +1735,25 @@ select {
   margin-bottom: 10px;
 }
 .btn-fb {
-  color: white;
+  color: #fff;
   background-color: #3b5998;
 }
 .btn-fb:hover {
-  color: white;
+  color: #fff;
   background-color: #496ebc;
 }
 .btn-tw {
-  color: white;
+  color: #fff;
   background-color: #55acee;
 }
 .btn-tw:hover {
-  color: white;
+  color: #fff;
   background-color: #59b5fa;
 }
 @media (max-width: 768px) {
   #login-dp {
     background-color: inherit;
-    color: white;
+    color: #fff;
   }
   #login-dp .bottom {
     background-color: inherit;
@@ -1771,10 +1766,10 @@ select {
   font-size: 14px;
 }
 .btn-google {
-  color: white;
+  color: #fff;
   background-color: #dd4b39;
 }
 .btn-google:hover {
-  color: white;
+  color: #fff;
   background-color: #ea503d;
 }
