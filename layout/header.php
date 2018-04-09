@@ -93,7 +93,7 @@
               <i class="glyphicon glyphicon-menu-down" aria-hidden="true"></i>
             </a>
             <ul id="login-dp" class="dropdown-menu">
-              <li class="login">
+           <!--    <li class="login">
                 <div class="row">
                   <div class="col-xs-12">
                     <div class="gabung">Login ke Akun Anda</div>
@@ -139,7 +139,7 @@
                   </div> 
                 </div>
               </li>
-
+ -->
               <li class="signup">
                 <div class="row">
                   <div class="col-xs-12">
