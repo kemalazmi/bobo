@@ -56,7 +56,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="brand" href="index.php">
+        <a class="brand" href="home.php">
           <img src="../assets/img/logo.png" class="img-responsive">
         </a>
       </div>
